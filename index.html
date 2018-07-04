@@ -4,11 +4,13 @@
     <title>Learn Enough JavaScript</title>
     <meta charset="utf-8">
     <script>
-      alert("Hello, World!");
-      var fName= "Sherif";
-      var sName="Mohamed";
-      console.log("My Name is: ");
-      console.log(${fName});
+      const dayOfTheWeek = ["Sunday" , "Monday", "Tuesday","Wednesday","Thursday","Friday","Saturday"];
+      let now =new Date();
+      let dayname= dayOfTheWeek[now.getDay()];
+      alert(`Hello, World! Happy  ${dayname}.`);
+      let birthday =new Date("20 July, 1976");
+      alert(`Hello, Sherif! Happy  ${birthday} Birthday.`);
+
     </script>
   </head>
   <body>
